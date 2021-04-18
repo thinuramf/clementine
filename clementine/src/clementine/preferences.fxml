@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <TitledPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: black; -fx-border-color: black; visibility: black;" text="Preferences">
+         <content>
+            <TabPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab style="-fx-background-color: white;" text="General">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: black;">
+                           <children>
+                              <SplitPane dividerPositions="0.39297658862876256" prefHeight="747.0" prefWidth="600.0" style="-fx-background-color: black;">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <Button layoutX="25.0" layoutY="42.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Playback" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="25.0" layoutY="107.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Behaviour" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="25.0" layoutY="178.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Music library" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="25.0" layoutY="250.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Transcoding" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="25.0" layoutY="320.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Network Remote" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                                 </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab style="-fx-background-color: white;" text="Interface">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: Black;">
+                           <children>
+                              <SplitPane dividerPositions="0.39297658862876256" prefHeight="747.0" prefWidth="600.0" style="-fx-background-color: black;">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <Button layoutX="25.0" layoutY="307.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Notifications" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="25.0" layoutY="102.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Search" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="25.0" layoutY="168.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Appearance" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="25.0" layoutY="237.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Song Information" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="25.0" layoutY="36.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Shortcuts" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="25.0" layoutY="380.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Internet Services" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab style="-fx-background-color: white;" text="Internet">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: Black;">
+                           <children>
+                              <SplitPane dividerPositions="0.39297658862876256" prefHeight="747.0" prefWidth="600.0" style="-fx-background-color: black;">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <Button layoutX="14.0" layoutY="51.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Amazon" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="14.0" layoutY="331.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Google Drive" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="14.0" layoutY="164.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Box" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="14.0" layoutY="219.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Digitally Imported" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="14.0" layoutY="275.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Dropbox" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="14.0" layoutY="107.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="Background Streams" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                          <Button layoutX="14.0" layoutY="387.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black;" text="OneDrive" textFill="WHITE">
+                                             <effect>
+                                                <Lighting bumpInput="$null">
+                                                   <light>
+                                                      <Light.Distant />
+                                                   </light>
+                                                </Lighting>
+                                             </effect>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                                 </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </content>
+      </TitledPane>
+   </children>
+</AnchorPane>
